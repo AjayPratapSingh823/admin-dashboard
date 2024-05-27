@@ -1,0 +1,39 @@
+.element-lacina {
+  display: flex;
+  margin-top: 2.7em;
+}
+.Element {
+  text-align: left;
+  margin-left: 3em;
+  font-size: 0.7em;
+}
+.line-container {
+  width: 200%;
+  height: 10px; /* Adjust height as needed */
+  background-color: lightgray; /* Color of the unfilled part of the line */
+  /* Rounded corners */
+  margin-top: -1em;
+}
+
+.line {
+  height: 100%;
+  background-color: blue; /* Color of the filled part of the line */
+  /* Rounded corners */
+}
+
+.lacina {
+  margin-left: 17em;
+  font-size: 0.6em;
+  margin-top: 0.7em;
+}
+.line-container1 {
+  margin-top: -1em;
+  width: 300%;
+  height: 1em;
+  background-color: lightgray;
+}
+.lacina1 {
+  font-size: 10px;
+  text-align: left;
+  margin-left: -2px;
+}

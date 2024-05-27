@@ -1,0 +1,11 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* border:1px solid black */
+}
+
+.home {
+  box-shadow: 0.5px 0.5px 0.5px 1px rgb(0, 0, 0, 0.1);
+}

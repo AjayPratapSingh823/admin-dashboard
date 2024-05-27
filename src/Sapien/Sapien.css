@@ -1,0 +1,14 @@
+.column {
+  display: flex;
+  gap: 7em;
+  text-align: left;
+  margin-top: 2.5em;
+  color: blue;
+  margin-left: 2em;
+}
+
+.column-insider {
+  padding-left: 1em;
+  width: 10em;
+  /* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3); */
+}

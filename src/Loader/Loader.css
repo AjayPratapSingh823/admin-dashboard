@@ -1,0 +1,29 @@
+.loader-container {
+  position: relative;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  width: 120px; /* Set width of the loader container */
+  height: 120px; /* Set height of the loader container */
+}
+
+.loader-progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+  border-radius: 50%; /* Make the loader circular */
+  width: 100%;
+  height: 100%;
+  border: 15px solid blue; /* Set the border color to blue */
+  border-right-color: grey; /* Set the left border color to grey */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-progress h1 {
+  font-size: 2em;
+  color: blue; /* Set the color of the heading */
+  margin: 0;
+}
